@@ -13,6 +13,16 @@ class NewViewController: UIViewController {
         super.viewDidLoad()
         buttonCreate()
     }
+    @IBAction func buttonTapped(_ sender: Any) {
+        // navigate by using sroryboard
+//        let vc = self.storyboard?.instantiateViewController(identifier: "FirstViewController") as! FirstViewController
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+        // navigate using segue ::
+        self.performSegue(withIdentifier: "sec", sender: self)
+    }
+    
+    //MARK: - button creation
     
     func buttonCreate() {
         // set UP
@@ -54,7 +64,6 @@ class NewViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: { action in
                 //Read Text Fields
             guard let fields = alert.textFields , fields.count == 2 else {return}
-            
             let emailField = fields[0]
             let passwordField = fields[1]
             guard let email = emailField.text , !email.isEmpty

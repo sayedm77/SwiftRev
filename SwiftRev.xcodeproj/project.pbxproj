@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B16AD122D06D159004909E2 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B16AD112D06D159004909E2 /* LabelStyle.swift */; };
+		3B53A8962D11B3FD00A41427 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53A8952D11B3FD00A41427 /* FirstViewController.swift */; };
+		3B53A8982D11BAA100A41427 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53A8972D11BAA100A41427 /* SecViewController.swift */; };
 		3B9BE9B82D06EAFF0010300D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BE9B72D06EAFF0010300D /* NewViewController.swift */; };
 		3BDD47E82D05C6140008521D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD47E72D05C6140008521D /* AppDelegate.swift */; };
 		3BDD47EA2D05C6140008521D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD47E92D05C6140008521D /* SceneDelegate.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		3B16AD112D06D159004909E2 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		3B53A8952D11B3FD00A41427 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3B53A8972D11BAA100A41427 /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
 		3B9BE9B72D06EAFF0010300D /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		3BDD47E42D05C6140008521D /* SwiftRev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD47E72D05C6140008521D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				3BDD47EB2D05C6140008521D /* ViewController.swift */,
 				3BDD47FD2D05E7210008521D /* LabelProg.swift */,
 				3B9BE9B72D06EAFF0010300D /* NewViewController.swift */,
+				3B53A8952D11B3FD00A41427 /* FirstViewController.swift */,
+				3B53A8972D11BAA100A41427 /* SecViewController.swift */,
 				3BDD47ED2D05C6140008521D /* Main.storyboard */,
 				3BDD47F02D05C6160008521D /* Assets.xcassets */,
 				3BDD47F22D05C6160008521D /* LaunchScreen.storyboard */,
@@ -152,7 +158,9 @@
 			files = (
 				3BDD47EC2D05C6140008521D /* ViewController.swift in Sources */,
 				3BDD47FE2D05E7210008521D /* LabelProg.swift in Sources */,
+				3B53A8982D11BAA100A41427 /* SecViewController.swift in Sources */,
 				3B9BE9B82D06EAFF0010300D /* NewViewController.swift in Sources */,
+				3B53A8962D11B3FD00A41427 /* FirstViewController.swift in Sources */,
 				3BDD47E82D05C6140008521D /* AppDelegate.swift in Sources */,
 				3BDD47EA2D05C6140008521D /* SceneDelegate.swift in Sources */,
 				3B16AD122D06D159004909E2 /* LabelStyle.swift in Sources */,
